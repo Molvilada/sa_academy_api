@@ -8,5 +8,8 @@ services:
       STUDENTS_URL: '192.168.99.112'
       STUDENTS_PORT: '3001'
       STUDENTS_ENTRY: 'students-ms/resources/students'
+      COURSES_URL: '192.168.99.112'
+      COURSES_PORT: '4000'
+      COURSES_ENTRY: 'courses-ms/resources/courses'
     ports:
       - '5000:5000'
