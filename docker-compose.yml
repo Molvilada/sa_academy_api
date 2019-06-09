@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+  academy-api:
+    build: .
+    environment:
+      PORT: '5000'
+      SHOW_URLS: 'true'
+      STUDENTS_URL: '192.168.99.112'
+      STUDENTS_PORT: '3001'
+      STUDENTS_ENTRY: 'students-ms/resources/students'
+    ports:
+      - '5000:5000'
